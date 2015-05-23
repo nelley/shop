@@ -1,0 +1,30 @@
+.flexslider {
+	z-index: 1;
+}
+
+.flexslider .slides img {width: 100%; height: 100%; display: block;}
+
+#mainNav {
+	z-index: 50;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.button,
+.button,
+.button,
+#searchsubmit  {
+	font-family: Arial, Helvetica, sans-serif !important;	
+}
+
+#homeSlideshow h2 {	
+	margin-left: 1px;	
+}
+
+
+#homeSlideshow h2 span {	
+	box-shadow: none;
+	padding: 8px 8px;
+}

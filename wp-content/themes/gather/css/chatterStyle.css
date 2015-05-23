@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+body{
+        font-family:Arial, Helvetica, Sans-serif;
+        font-size:11px;
+}
+
+ul.chatMessageList{
+        display:block;
+        padding:10px;
+        margin:0 auto;
+        margin-bottom:20px;
+        list-style:none;
+        width:500px;
+        height:320px;
+        border:1px solid #808080;
+        overflow-y: auto;
+}
+
+ul.chatMessageList li.chatMessage{
+        display:block;
+        padding:6px;
+        background-color:#dadaff;
+        margin-bottom:10px;
+}
+
+ul.chatMessageList li.chatMessage span{
+        font-weight:bold;
+        display:block;
+}
+
+ul.chatMessageList li.chatMessage p{
+        margin:0px;
+}
+
+form{
+        display:block;
+        width:500px;
+        margin:0 auto;
+        padding:10px;
+        border:1px solid #808080;
+}
+
+fieldset{
+        margin:0px;
+        border:0px;
+        padding:5px 0px;
+}
+
+fieldset textarea{
+        width:400px;
+        height:100px;
+}
+
+fieldset input[type=submit]{
+        padding:5px;
+        cursor:pointer;
+}
+
+.errorMessage{
+        color:#f21212;
+}

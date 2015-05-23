@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry excluding="wc-logs/*.php;wp-admin/*.php;wp-content/*.php;wp-includes/*.php" kind="src" path=""/>
+</buildpath>

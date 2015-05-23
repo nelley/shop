@@ -1,0 +1,314 @@
+/*!
+ * nelley v1.0.0
+ * Copyright 2011-2015
+ * Licensed under MIT
+ */
+
+@CHARSET "UTF-8";
+
+/*for memberpage START*/
+.noBorder{
+    border:none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color:transparent;
+}
+.pagingChosen{
+    font-size: 25px;
+}
+.paging{
+    cursor: pointer;
+    font-size: 25px;
+}
+.images{
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    padding: 0;
+    border: 10px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px 50px 30px 15px;
+}
+
+#content.nelleyTwo {
+    margin: 0 0 20px 3%;
+    padding: 0 0 0 0 !important;
+    width: 93%;
+    float: left;
+}
+
+.overlayImage {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    line-height: 100px;
+}
+
+.date{
+    padding:5px 0 0 0;
+}
+.price{
+    padding:5px 0 0 0;
+}
+
+.memeberpage{
+    padding:20px 20px 20px 20px !important;
+    margin:5px 5px 5px 5px !important;
+    font-size:18px !important;
+}
+.alignCenter{
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    width:200px;
+    height:100px;
+}
+/************************************************************************/
+.newDesign{
+	padding:5px;
+}
+.BOXAA:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.BOXBB:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.box11{/*product*/
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    border: solid 4px #E0E0E0;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 1px;
+}
+.box12{
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    float: left;
+    width:50%;
+    height:75px;
+    background-color:transparent;
+    border: solid 4px #E0E0E0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 2px;
+    border-bottom-width: 1px;
+    text-align:center;
+}
+.box13{
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    float: left;
+    width:50%;
+    height:75px;
+    background-color:transparent;
+    text-align:center;
+    border: solid 4px #E0E0E0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+.box14{
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    float: left;
+    width:33%;
+    height:75px;
+    background-color:transparent;
+    text-align:center;
+    border: solid 4px #E0E0E0;
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+.box15{/*receipt*/
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    float: left;
+    background-color:transparent;
+    border: solid 4px #E0E0E0;
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 1px;
+    width:100%;
+}
+.box16{
+    -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+    box-sizing: border-box;          /*Opera/IE 8+ */
+    text-align:center;
+    border: solid 4px #E0E0E0;
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+}
+.BOXAA{
+    
+}
+.BOXBB{
+    float: left;
+    width:67%;
+}
+
+@media only screen and (min-width: 768px){
+
+    .alignCenter{
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:100px;
+        width:600px;
+        height:450px;
+    }
+    .memeberpage{
+        padding:20px 20px 20px 20px !important;
+        margin:45px 5px 5px 5px !important;
+    }
+        .price{
+        padding:20px 0 0 0;
+    }
+    .newDesign:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .BOXAA:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .BOXBB:after{
+        content:"";
+        display:block;
+        clear:both;
+        
+    }
+    .box11{/*product*/
+       -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+        box-sizing: border-box;          /*Opera/IE 8+ */
+        float:left;
+        width:35%;
+        background-color: transparent;
+        border: solid #E0E0E0;
+        padding:0 0 0 0;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-left-width: 2px;
+        border-bottom-width: 2px;
+        height:180px;
+        
+    }
+    .box12{/*receive*/
+        -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+        box-sizing: border-box;          /*Opera/IE 8+ */
+        width:100%;
+        background-color: transparent;
+        border: solid 8px #E0E0E0;
+        font-size:16px;
+        text-align:center;
+        padding:10px 0 0 0;
+        border-top-width: 2px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-bottom-width: 1px;
+        height:90px;
+    }
+    .box13{/*ship*/
+        width:100%;
+        text-align:center;
+        -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+        box-sizing: border-box;          /*Opera/IE 8+ */
+        background-color: transparent;
+        border: solid 8px #E0E0E0;
+        font-size:16px;
+        padding:10px 0 0 0;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-bottom-width: 2px;
+        height:90px;
+    }
+    .box14{/*price*/
+        float: right;
+        width:18%;
+        text-align:center;
+        -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+        box-sizing: border-box;          /*Opera/IE 8+ */
+        background-color: transparent;
+        border: solid 8px #E0E0E0;
+        padding:10px 0 0 0;
+        border-top-width: 2px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-bottom-width: 2px;
+        height:180px;
+    }
+    .box15{/*receipt*/
+        -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+        box-sizing: border-box;          /*Opera/IE 8+ */
+        float: left;
+        width:64%;
+        text-align:center;
+        background-color: transparent;
+        border: solid 8px #E0E0E0;
+        padding:0 0 0 0;
+        border-top-width: 2px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-bottom-width: 2px;
+        height:180px;
+    }
+    .box16{/*button*/
+        -webkit-box-sizing: border-box;  /*Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;     /*Firefox, other Gecko */
+        box-sizing: border-box;          /*Opera/IE 8+ */
+        float:left;
+        width:10%;
+        background-color: transparent;
+        border: solid 8px #E0E0E0;
+        padding:0 0 0 0;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-left-width: 1px;
+        border-bottom-width: 2px;
+        height:180px;
+    }
+    .BOXAA{
+        float: left;
+        width:55%;
+    }
+    .BOXBB{
+        float: left;
+        width:18%;
+    }
+}
+/*for memberpage END*/
